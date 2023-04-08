@@ -17,9 +17,12 @@ temp_now = weather_get.temperature('celsius')['temp']
 status_now = weather_get.status
 windy_now = weather_get.wind()['speed']
 
+# Возможные погодные условия
+status = {'Clouds': 'облачно', 'Clear': 'ясно', 'Mist': 'туманно', 'Haze': 'легкий туман', 'Rain': 'идет дождь', 'Snow': 'идет снег'}
+
 print(
     f'Температура воздуха в ближайшее время: {temp_now}°C \n'
-    f'На улице {status_now} \n'
+    f'На улице {status[status_now]} \n'
     f'Скорость ветра: {windy_now} м/с'
 )
 
