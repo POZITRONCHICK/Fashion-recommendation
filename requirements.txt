@@ -1,0 +1,6 @@
+numpy~=1.16.0
+tensorflow~=1.13.1
+six~=1.16.0
+ipython~=7.1.0
+protobuf==3.20
+pyowm==3.3.0

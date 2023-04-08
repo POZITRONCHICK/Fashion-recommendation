@@ -1,0 +1,6 @@
+coat
+dress
+jacket
+shirt
+t-shirt
+turtleneck
