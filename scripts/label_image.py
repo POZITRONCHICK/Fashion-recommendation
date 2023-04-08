@@ -69,8 +69,8 @@ def load_labels(label_file):
 
 
 if __name__ == "__main__":
-  path = "C:/Users/POZI/Desktop/Нейроодежда/Fashion-recommendation/"
-  name = "turtleneck"
+  path = "D:/Магистратура учеба/Проекты с Ромой/Проект по одежде/Fashion project/"
+  name = input("Введите название картинки (без .jpg): ")
   file_name = path + "Images/" + name + ".jpg"
   model_file = path + "tf_files/retrained_graph.pb"
   label_file = path + "tf_files/retrained_labels.txt"
