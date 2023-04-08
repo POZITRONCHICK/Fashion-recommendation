@@ -15,13 +15,13 @@
 > 1) Склонировать проект командой <code>git clone git@github.com:POZITRONCHICK/Fashion-recommendation.git</code>
 > 2) Рекомендуем использовать виртуальное окружение. Для того чтобы создать и активировать виртуальное окружение, необходимо:
 >> * перейти в папку проекта: <code>cd ../Fashion-project</code>
-   * открыть Terminal и прописать команду: <code>pip venv venv</code>
-   * активировать виртуальное окружение командой: <code>venv\scripts\activate</code>
+>> * открыть Terminal и прописать команду: <code>pip venv venv</code>
+>> * активировать виртуальное окружение командой: <code>venv\scripts\activate</code>
 > 3) Установить все необходимые библиотеки для корректной работы проекта можно, выполнив команду: <code>pip install --r requirements.txt</code>
 > 4) Загрузить свое фото в папку Fashion-project/Images (формат .jpg)
 > 5) В Terminal вызвать команду <code>python scripts/label_image.py</code>:
 >> * Ввести название картинки, которую сохранили в Images.
-   * Пример: картинка в папке Images -> jacket.jpg. Тогда следует ввести название: jacket
-   * **Важно!** Не указывать в названии «.jpg»
+>> * Пример: картинка в папке Images -> jacket.jpg. Тогда следует ввести название: jacket
+>> * **Важно!** Не указывать в названии «.jpg»
 > 6) В Terminal вызвать команду <code>python scripts/weather.py</code>
 > **В итоге** команда выведет сообщение, одеты ли Вы по погоде, а также даст рекомендации, что надеть в зависимости от погодных условий.
